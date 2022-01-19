@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Blog Andreu</title>
-    </head>
-    <body>
-        <p>Personas: Michel Salgado, Alvaro Ramirez, Manuel Andreu</p>
-    </body>
-</html>
+
 <!-- inicia entrada: nombre_del_artículo -->
 <article>
     <header>
         <hgroup>
             <!-- Título del artículo -->
-            <h2> <img src="assets/images/https://images.ctfassets.net/rporu91m20dc/570bUibF1U3cpB4jORwPOd/9679017b4fb300b7b1f088a8aa15b191/Doom-Eternal_Maurader_Wallpaper_1280x720-01.jpg" alt="Doom" height="35px" width="auto"> Título del artículo</h2>
+            <h2> <img src="assets/images/icono_decorativo.png" alt="Descripción del ícono" height="35px" width="auto"> Título del artículo</h2>
             <!-- Fecha en la que se escribió el artículo -->
             <h4>dd/mes/aa</h4>
         </hgroup>    
