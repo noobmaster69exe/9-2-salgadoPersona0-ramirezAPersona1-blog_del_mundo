@@ -1,0 +1,109 @@
+<!--Inicia barra de navegación-->
+<nav>
+    <ul>
+        <li> <a href="Index.html" target="_blank">Principal</a> </li>
+        <li> <a href="tema1.html">Tema 1</a> </li>
+        <li> <a href="tema2.html">Tema 2</a> </li>
+        <li> <a href="tema4.html">Tema 4</a> </li>
+    </ul>
+</nav>
+<!--Acaba barra de navegación-->
+<!--Inicia entrada-->
+    <article> 
+        <header>
+            <hgroup>
+                <!--Fecha en la que se escribió el articulo-->
+                <h4>02/12/21</h4>
+            </hgroup>
+        </header>
+        <!--Inicia contenido del articulo-->
+        <div>
+            <h3>JUEGOS</h3>
+            <ol reversed>
+                <li>ACCION</li>
+                <li>AVENTURA</li>
+                <li>SOLO</li>
+                <li>MULTI</li>
+                <li>LINCENCIA</li>
+                <li>CARRERAS</li>
+                <li>DEPORTE</li>
+                <li>TERROR</li>
+                <li>ANIME</li>
+                <li>INDIE</li>
+            </ol>
+        </div>
+        <!--Termina el contenido de mi articulo-->
+    <footer></footer>
+    </article>
+    <!--Fin de la entrada-->
+<!--Inicia entrada-->
+    <article>
+        <!--Inicia contenido del articulo-->
+        <div>
+            <h3>Enlaces para más información</h3>
+            <ul>
+                <li> <a href="https://thegameawards.com/nominees/best-narrative" target="_blank"></a></li>
+                <li> <a href="https://thegameawards.com/nominees/best-action-adventure" target="_blank"></a></li>
+                <li> <a href="https://thegameawards.com/nominees/best-sports-racing" target="_blank"></a></li>
+                <li> <a href="https://thegameawards.com/nominees/best-multiplayer" target="_blank"></a></li>
+                <li> <a href="https://thegameawards.com/nominees/best-debut-game" target="_blank></a></li>
+            </ul>
+        </div>
+        <!--Termina el contenido de mi articulo-->
+    <footer></footer>
+    </article>
+    <!--Fin de la entrada-->
+</main>
+<!--Termina contenido principal-->
+</section>
+<!--Termina mi blog-->
+=======
+                <article> 
+                    <header>
+                        <hgroup>
+                            <!--Fecha en la que se escribió el articulo-->
+                            <h4>02/12/21</h4>
+                        </hgroup>
+                    </header>
+                    <!--Inicia contenido del articulo-->
+                    <div>
+                        <h3>JUEGOS</h3>
+                        <ol reversed>
+                            <li>ACCION</li>
+                            <li>AVENTURA</li>
+                            <li>SOLO</li>
+                            <li>MULTI</li>
+                            <li>LINCENCIA</li>
+                            <li>CARRERAS</li>
+                            <li>DEPORTE</li>
+                            <li>TERROR</li>
+                            <li>ANIME</li>
+                            <li>INDIE</li>
+                        </ol>
+                    </div>
+                    <!--Termina el contenido de mi articulo-->
+                <footer></footer>
+                </article>
+                <!--Fin de la entrada-->
+<!--Inicia entrada-->
+                <article>
+                    <!--Inicia contenido del articulo-->
+                    <div>
+                        <h3>Enlaces para más información</h3>
+                        <ul>
+                            <li> <a href="https://thegameawards.com/nominees/best-narrative" target="_blank"></a></li>
+                            <li> <a href="https://thegameawards.com/nominees/best-action-adventure" target="_blank"></a></li>
+                            <li> <a href="https://thegameawards.com/nominees/best-sports-racing" target="_blank"></a></li>
+                            <li> <a href="https://thegameawards.com/nominees/best-multiplayer" target="_blank"></a></li>
+                            <li> <a href="https://thegameawards.com/nominees/best-debut-game" target="_blank></a></li>
+                        </ul>
+                    </div>
+                    <!--Termina el contenido de mi articulo-->
+                <footer></footer>
+                </article>
+                <!--Fin de la entrada-->
+            </main>
+            <!--Termina contenido principal-->
+        </section>
+        <!--Termina mi blog-->
+>>>>>>> 89ef38a7f099ae95248c572dba16b2a59924500c
