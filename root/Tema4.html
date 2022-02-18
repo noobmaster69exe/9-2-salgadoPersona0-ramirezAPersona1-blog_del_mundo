@@ -1,184 +1,223 @@
-<!-- Nombre completo persona responsable de este tema -->
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <!-- añade el conjunto de caracteres latinos -->
-    <meta charset="UTF-8">
-    <title>funkos</title>
-</head>
-<span style="color: rgb(0, 255, 179);">funkos</span>
-<head>
+<html lang="en">
     <head>
-        <!-- añade el conjunto de caracteres latinos -->
         <meta charset="UTF-8">
-        <!-- Carga la hoja de estilos -->
-        <link rel="stylesheet" href="rgb 43">
+        <title>Mi segundo tema</title>
+        <link rel="stylesheet" href="assets/styles/estilos_michel.css">
     </head>
-    <!-- inicia barra de navegación -->
-    <nav>
-        <ul>
-            <li><a href="index.html" target="_blank">Principal</a></li>
-            <li><a href="mi_tema2.html">de accion</a></li>
-            <!-- Temas de mi equipo -->
-            <li><a href="mi_tema3.html">de terror</a></li>
-            <li><a href="mi_tema4.html">multijugador</a></li>
-        </ul>
-    </nav>
-    <!-- termina barra de navegación -->
+    <body>
+        <nav class="Barra_nav">
+            <ul>
+                <li>
+                    <a class="resaltado" href="index.html"> Index </a>
+                </li>
+            
+                <li>
+                    <a href="mi_primer_tema_michel.html"> videojuegos </a>
+                    
+                </li>
+            
+                <li>
+                    <a href="mi_primer_tema_alvaro.html"> La sociedad </a>
+                </li>
+            
+                <li>
+                    <a href="mi_segundo_tema_michel.html"> La tecnologia </a>
+                </li>
+            
+                <li>
+                    <a href="mi_segundo_tema_alvaro.html"> La inspiración de la música </a>
+                </li>
+            </ul>
+        </nav>
+    
+        <section>
+            <header>
 
-    <!--empieza mi blog-->
-    <section>
-        <!-- Empieza encabezado del blog -->
-        <header>
-            <h1>funkos</h1>
-        </header>
-        <!-- Termina encabezado del blog -->
+            </header>
+            <main>
+                <article>
+                    <header>
+                        <hgroup class="titulo_del_blog">
+                            <!--Titulo del articulo-->
+                            <h2><img src="assets/images/ai.png" alt="Computadora Inteligente" height="35px" width="auto"> La tecnologia y su progreso a traves de la historia</h2>
+                            <!--Fecha-->
+                            <h4>05/11/21</h4>
+                        </hgroup>
+                    </header>
+                    <!--Contenidodel articulo-->
+                    <div>
+                        <h3>Usos de la tencnologia a traves de la historia</h3>
+                        <p>La tecnología ha sido utilizada a través de la historia humana, probablemente sin ella no estaríamos aquí, desde pezca y herramientas simples hasta la tecnología más avanzada como viajes a la luna e inclusive viajes sin tripulación a Marte, esta ha sido utilizada desde los inicios de la humanidad.
 
-        <!-- empieza contenido principal -->
-        <main>
-
-            <!-- inicia entrada: Introducción a mi_tema -->
-            <article>
-                <header>
-                    <hgroup>
-                        <!-- Título del artículo -->
-                        <h2>funkos</h2>
-                        <!-- Fecha en la que se escribió el artículo -->
-                        <h4>16/02/22</h4>
-                    </hgroup>
-                </header>
-                <!-- inicia contenido del artículo -->
-                <div>
-                    <h3>de accion</h3>
-                    <p>Si bien los objetivos de estos videojuegos varían de videojuego a videojuego, generalmente implican avanzar a través de niveles, eliminando hordas de enemigos y resolviendo problemas. Muchos videojuegos incluyen uno o más "jefes", a veces precedidos por "minijefes". Un minijefe es generalmente el clímax hacia un nivel o serie de niveles, con un jefe al final del juego o periódicamente por el juego, llevando a un "jefe final", el cual derrotar es el objetivo principal.
-
-                        Para derrotar jefes se suele usar el "reconocimiento de patrones" y la velocidad de reacción física. En la mayor parte de los videojuegos viejos (e inclusive algunos modernos) los jefes son programados con un patrón de ataques simple o con movimientos que el jugador aprende a través de la experiencia. Estos patrones simples a menudo abarcan "combos" que exigen al jugador saltar, esquivar o bloquear ataques para luego atacar en ciertos puntos claves, todo esto mientras se maneja el tiempo de los patrones para poder atacar.
-                        
-                        Muchos subgéneros, como los videojuegos de plataformas, incluyen problemas de estilo gimnástico, como por ejemplo saltos de tiempos regulados hacia y desde plataformas móviles. Los videojuegos de plataformas, ya sean en dos o tres dimensiones, son similares en concepto a la serie de videojuegos Mario Bros.. Algunos videojuegos de acción tienen una jugabilidad al estilo de los videojuegos de disparos en tercera persona, permitiéndole al jugador adquirir y (a veces) mejorar un conjunto de armas, cada una con una habilidad especial.
-                        
-                        Otro subgénero común es el Matamarcianos, en el cual el jugador controla un personaje o vehículo con muchas armas, y debe disparar a una gran cantidad de enemigos y objetos.</p>
-  <!-- inicia ilustración del artículo -->
-  <figure>
-    <img src="data:image/jpeg;base64,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" alt="ilustracion 1º artículo" height="600px" width="auto">
-    <figcaption>dying light 2.</figcaption>
-</figure>
-<!-- termina ilustración del artículo -->
-                    <h3>De terror</h3>
-                    <p>El horror de supervivencia (En inglés survival horror) también referido como, horror de sobrevivencia, es un subgénero de los videojuegos de terror y de acción y aventura que se centra en la supervivencia del personaje mientras se intenta asustar a los jugadores con diferentes elementos del horror. Aunque el combate suele ser parte de la jugabilidad, generalmente se hace que el jugador se sienta menos en control que en los videojuegos de acción típicos, a través de municiones, salud, velocidad y visión limitadas, o a través de la obstrucción de la interacción del jugador con las mecánicas del videojuego.
-                         El jugador también tiene el reto de encontrar elementos que desbloqueen el camino hacia nuevas áreas y resuelvan acertijos para continuar avanzando en la trama del videojuego. Los videojuegos hacen uso de fuertes temas de terror, como entornos oscuros, y laberínticos o ataques inesperados de los enemigos.
-                        El término horror de supervivencia sería usado por primera vez para el lanzamiento original en japonés de Resident Evil en el año 1996, videojuego que sería influenciado por obras de terror anteriores como Sweet Home de 1989 y Alone in the Dark del año 1992. El nombre se ha utilizado desde entonces para videojuegos con jugabilidades similares, y se ha aplicado de forma retroactiva a títulos anteriores. A partir del lanzamiento de Resident Evil 4 en 2005, el género comenzó a incorporar más características de los videojuegos de acción y los videojuegos de disparos en primera persona y en tercera persona más tradicionales. Esto ha llevado a los periodistas a cuestionarse si las franquicias de larga data y las más recientes han abandonado el género y se han mudado a un género distinto al que a menudo se le denomina «action horror»</p>
-                          <!-- inicia ilustración del artículo -->
-    <figure>
-        <img src="data:image/jpeg;base64,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" alt="ilustracion 1º artículo" height="600px" width="auto">
-        <figcaption>resident evil 3.</figcaption>
-    </figure>
-    <!-- termina ilustración del artículo -->    
-
-                    <h3>demultijugador</h3>
-                    <p>¿Multijugador o cooperativo? A la hora de jugar online a tu juego favorito es posible que tengas alguna de estas dos opciones o incluso ambas. Por eso, hoy te vamos a decir cual es la diferencia entre un juego multijugador y uno cooperativo o Co-Op para que puedas saber a qué tipo de juego concreto se refiere cada una de estas dos opciones.
-                        Ambos términos parecen querer decir lo mismo, poder jugar con varias personas en línea, pero no se refieren exactamente a la misma manera de jugar. De hecho, casi podríamos decir que aunque el cooperativo es también un multijugador, los multijugadores no tienen por qué ser cooperativos. Tranquilo, porque tiene una explicación.
-                        Un videojuego multijugador es todo aquel que tiene alguna modalidad de juego que permite que dos o más jugadores puedan interactuar durante la partida al mismo tiempo. Esto puede ser tanto de manera presencial utilizando ambos la misma consola, mediante cables o partidas locales inalámbricas con varias consolas, o a través de Internet.
-                        Esto quiere decir que si estás jugando a un Call of Duty, como son varias personas humanas jugando a la vez es un multijugador, y si estás con tu consola jugando dos personas a la vez utilizando la misma consola también es con un juego multijugador. E incluso si tienes una Nintendo Switch y estáis jugando varias personas en la misma habitación cada uno con su consola mediante LAN pero todos en la misma partida a la vez también es multijugador.</p>
-  <!-- inicia ilustración del artículo -->
-  <figure>
-    <img src="data:image/jpeg;base64,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" alt="ilustracion 1º artículo" height="600px" width="auto">
-    <figcaption>dead by daylight.</figcaption>
-</figure>
-<!-- termina ilustración del artículo -->
-
-                </div>
-                <!-- Termina contenido del artículo -->
-                <footer>
-
-                </footer>
-            </article>
-            <!-- fin entrada: Introducción a mi_tema -->
-
-
-            <!-- inicia entrada: ranking -->
-            <article>
-                <header>
-                    <hgroup>
-                        <!-- Título del artículo -->
-                        <h2>mejores juegos en mi opinion</h2>
-                        <!-- Fecha en la que se escribió el artículo -->
-                        <h4>dd/mes/aa</h4>
-                    </hgroup>
-                </header>
-                <!-- inicia contenido del artículo -->
-                <div>
-                    <!-- Empieza mi ranking en orden inverso -->
-                    <ol reversed>
-                        <li>dead by daylight</li>
-                        <li>doom</li>
-                        <li>dying light 1 and 2</li>
-                        <li>five nights at freddys</li>
-                        <li>gears of war 2</li>
-                        <li>spider-man ps4</li>
-                        <li>god of war</li>
-                        <li>call of duty 3</li>
-                        <li>halo infinite</li>
-                        <li>fortnite</li>
+                            Ejemplos como las hachas, las lanzas, picos, palas, armas, trampas y varios otros son los inicios que abrieron las posibilidades al hoy en día. Sin ellas puede que no estemos aquí ya que el humano no posee cualidades como otros animales pero por el intelecto podemos hacer más.
+                        </p>
+                    </div>
+                    <div>
+                        <h3>La tecnologia y su progreso</h3>
+                        <p>La tecnología y herramientas han progresado mucho a través de los años, en el corto tiempo de los 3,000,000 años en el que la humanidad ha existido hemos logrado pasar de simples palos y piedras a máquinas simples como las llantas, después de eso a la potencia con agua, seguido eso con vapor, después carbón, energía eléctrica y varios otros.
+                            La tecnología ya no es como solía ser y ha progresado mucho gracias al intelecto más desarrollado que poseemos hemos podido crear nuestros propios ecosistemas, viajar fuera de la tierra, conquistar y explorar el mundo y hacer lo que antes solo se soñaba de poder.
+                        </p>
+                        <figure class="ilustracion">
+                            <img src="assets/images/combine_harvester.jpg" alt="combine_harvester" height="600px" width="auto">
+                        </figure>
+                    </div>
+                    <!--Termina contnido-->
+                    <footer class="footer_blog">
+                        <div>
+                            <span>michel salgado</span> <a href="https://www.instagram.com/michelooo5/?hl=es-la" target="_blank">@Instagram</a>
+                        </div>
+                        <blockquote>
+                            <p>Gregersen, E. No Disponible. History of Technology Timeline. Encyclopedia Britannica. https://www.britannica.com/story/history-of-technology-timeline</p>
+                        </blockquote>   
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <hgroup>
+                           
+                        </hgroup>
+                    </header>
+                    <!--Contenidodel articulo-->
+                    <div>
+                        <h4>Ejemplos de tecnologias y su progreso</h4>
+                        <ol reversed>
+                            <li><a href="https://es.wikipedia.org/wiki/Medicina"> Ciencias de la Vida (Medicina) </a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Herramienta"> Herramientas la base del inicio de la tecnologia</a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Construcción"> Construcción de edificaciones </a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Arma"> Armas y Defensa </a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Vehículo"> El transporte y los vehiculos </a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Caza#Historia"> La cacería y su necesidad en la historia</a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Máquina#Componentes"> Las maquinas, de simples a modernas y la facilitacion del trabajo </a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Electricidad#Historia_de_la_electricidad"> La electricidad, maquinas, etc </a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Pesca"> La Pesca, Harpones, Cañas, etc </a></li>
+                            <li><a href="https://es.wikipedia.org/wiki/Agricultura"> La Agricultura, la base del progreso humano </a></li>
+                        </ol reversed>
                     </ol>
-                    <!-- Termina mi ranking en orden inverso -->
-                    <p></p>
-                </div>
-                <!-- Termina contenido del artículo -->
-                <footer>
+                    </div>
+                    <!--Termina contnido-->
+                    <footer>
+                        <div>
+                            <span>michel salgado</span>
+                        </div>
+                        <div>
+                            <span><i>Blog creado en Colegio Alamos</i></span>
+                            <span>Las opiniones contenidas en este proyecto pertenecen a los autores de cada entrada</span>
+                        </div>
+                        <div>
+                            <span>alvaro ramirez</span>
+                        </div>
+                    </footer>
+                </article>
+                <article>
+                    <header>
+                        <hgroup>
+                           
+                        </hgroup>
+                    </header>
+                    <!--Contenidodel articulo-->
+                    <div>
+                        <h4>La tecnologia y su progreso</h4>
+                    </div>
+                    <figure>
+                        <figcaption>Autor: TedED.  19/Dic/16</figcaption>
+                    </figure>
+                    <iframe src="https://www.youtube.com/watch?v=zVsHzS70krg"> </iframe>
+                    <!--Termina contnido-->
+                    <footer>
 
-                </footer>
-            </article>
-            <!-- fin entrada: ranking -->
+                    </footer>
+                </article>
 
-            <!-- inicia entrada: sitios oficiales -->
+                <article>
+                    <header>
+                        <hgroup>
+                           
+                        </hgroup>
+                    </header>
+                    <!--Contenidodel articulo-->
+                    <div>
+                        <h4>La tecnologia en la modernidad</h4>
+                    </div>
+                    <div>
+                       <p>La tecnología forma una parte muy importante del hoy en dia. Este mismo blog y el como se puede leer recae en la tecnologia. La tecnologia es lo que nos permite construir y destruir, generar electricidad, y hasta hacer cosas basicas como cocinar. </p>
+                       <br>
+                       <cite>"It's not that we use technology, we live technology."" -Godfrey Reggio</cite>
+                       <p>Esta frase es algo bastante cierto, hoy estamos pasando a una era virtual y electrica, los empleos estan cambiando y la sociedad junto con esta; se podria ver como una nueva revolución industrial de cierto modo.</p>
+                    </div>
+                    <!--Termina contnido-->
+                    <footer>
+
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <hgroup>
+                           
+                        </hgroup>
+                    </header>
+                    <!--Contenidodel articulo-->
+                    <div>
+                        <h4>La tecnologia como una base para el progreso de humanidad y su supervivencia</h4>
+                    </div>
+                    <div>
+                      <p>La humanidad ha tenido tecnologia desde antes de que fueramos Homo Sapiens. Esta nos permitio llegar al hoy en dia. Las primeras herramientas son simples e insignificantes, como una simple cortada hace 2.6 Millones de años. La tecnologia ha cambiado y evolucionado, por un tiempo recolectabamos pero se descubrio la agricultura y junto con esta herramientas como las azadas, con esto tambien se pusieron pueblos y domesticaron animales. Con la invención de la rueda los animales como las vacas se usaban para arar tierra hasta el punto de la revolución agricultural donde tambien se plantaba automaticamente. La invención del motor llevo a vehiculos, donde ahi se empezaron a usar tractores para reemplazar a animales de trabajo como los caballos y vacas, seguido esto la cosecha tambien fue reemplazada de mano de obra a vehiculos con ayuda animal. Esto lleva a hoy en dia donde la mayoria de la agricultura se realiza con vehiculos, desde arar hasta fertilizar y cosechar.</p>
+                      <br>
+                      <p>Esto es un solo ejemplo de como la tecnologia es una parte muy importante de la vida diaria y de la sociedad</p>
+                    </div>
+                    <!--Termina contnido-->
+                    <footer>
+
+                    </footer>
+                </article>
+
+                <article>
+                    <header>
+                        <hgroup>
+                           
+                        </hgroup>
+                    </header>
+                    <!--Contenidodel articulo-->
+                    <div>
+                        <h4>La humanidad sin la tecnologia</h4>
+                    </div>
+                    <div>
+                        <p>Como ya hemos visto la tecnologia fue y es una parte muy importante para nosotros pero, ¿Como seria nuestro desarollo sin ella?</p>
+                        <br>
+                        <p>Los predecesores de los humanos eran un grupo que se separo de la especie común entre nosotros y los otros primates. Nuestro grupo separado se desarollo de forma intelectual a lugar que de forma fisica por el tener herramientas. Sin estas herramientas esta la posibilidad de que toda la familia de "Homo" nisiquiera exista. Los humanos no tenemor garras, dientes, velocidad o cosas de ese estilo como otros animales lo cual nos haria presa facil. Esto podria llevar a una extinción por seleccion natural en el peor de los casos; otra posibilidad seria la evolucion en otro lado. El grupo de primates que se separo no podria pelear facilmente, haciendo que a traves de sus generaciones vayan evolucionando como un animal promedio, con sus metodos de defensa como garras, espinas, etc.</p>
+                        <br>
+                        <p>Sin tener el intelecto y la tecnologia a nuestro lado no seria posible que el humano llegara al punto en el que estamos hoy en dia.</p>
+                    </div>
+                    <!--Termina contnido-->
+                    <footer>
+
+                    </footer>
+                </article>
+            </main>
+            <aside>
+                <h2>Microblogging</h2>
+                <div><span>La tecnologia se define como el uso de conocimientos cientificos para usos practicos</span></div>
+                <br>
+                <div><span>Depredadores que podrian habernos quitado de la linea evolutiva no siempre se enfocaban en humanos, no lo hacen hoy en dia</span></div>
+                <br>
+                <div><span>Las piedras fueron las primeras herramientas usadas hace casi 2.4 millones de años</span></div>
+                <br>
+                <div><span>Las maquinas simples son los ejemplos de tecnologia, usando fisicas y conocimientos cientificos para que sirvan</span></div>
+                <br>
+                <div><span>La tecnologia principalmente la rueda es una de las bases de la modernidad</span></div>
+            </aside>
             <article>
-                <header>
-                    <hgroup>
-                        <!-- Título del artículo -->
-                        <h2>sitios oficiales </h2>
-                        <!-- Fecha en la que se escribió el artículo -->
-                        <h4>16/02/22</h4>
-                    </hgroup>
-                </header>
-                <!-- inicia contenido del artículo -->
                 <div>
-                    <!-- Empieza mi lista de sitios oficiales -->
-                    <ul>
-                        <li><a href="https://www.xbox.com/es-MX" target="_blank">xbox</a></li>
-                        <li><a href="https://www.playstation.com/es-mx/ps5/?emcid=pa-co-421935&gclid=Cj0KCQiA3rKQBhCNARIsACUEW_YZfXg8HNIee3A5-FUEzegL5EeNPJ-qgszjpxB068MzMRIpNXPtKmAaAmFJEALw_wcB&gclsrc=aw.ds" target="_blank">playstation</a></li>
-                        <li><a href="https://www.nintendo.com/es_LA/" target="_blank">nintendo</a></li>
-                        <li><a href="https://latam.ign.com/" target="_blank">ign</a></li>
-                        <li><a href="https://www.gamespot.com/" target="_blank">gamespot</a></li>
-                    </ul>
-                    <!-- Termina mi lista de sitios oficiales -->
-
-                    <p>20 Dying Light 2 Easter Eggs You May Have Missed
-                        Similar to the original Dying Light, Techland has packed Dying Light 2: Stay Human with a lot of secrets for fans to uncover. Here are 20 easter eggs you may have missed.</p>
+                    <figure>
+                        <figcaption>Autor: Yo, xD</figcaption>
+                    </figure>
+                    <iframe src="https://youtu.be/w20XzTvTGbM"> </iframe>
                 </div>
-                <!-- Termina contenido del artículo -->
-                <footer>
-
-                </footer>
             </article>
-            <!-- fin entrada: sitios oficiales -->
-
-        </main>
-        <!-- termina contenido principal -->
-
-        <!-- empieza barra lateral -->
-        <aside>
-
-        </aside>
-        <!-- termina barra lateral -->
-
-        <!-- empieza el footer -->
-        <footer>
-
-        </footer>
-        <!-- termina el footer -->
-    </section>
-    <!--termina mi blog-->
-</body>
-
-</html
+            <footer>
+                
+            </footer>
+        </section>
+    </body>
+</html>
