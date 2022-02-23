@@ -1,6 +1,6 @@
 body{
     color:black;
-    background-color: rgb(16, 136, 32);}
+    background-color: rgb(24, 120, 209);}
         
     article{
     text-align: left; background-color: blue(44, 43, 42);
@@ -9,7 +9,7 @@ body{
     }
     
     nav>ul>li>. resaltado{
-     color:greenyellow;
+     color:rgb(29, 128, 128);
     
     
     }
