@@ -1,6 +1,10 @@
 body{
     color:black;
+<<<<<<< HEAD
     background-color: rgb(255, 255, 255);}
+=======
+    background-color: azure;}
+>>>>>>> e70c82662cc3cb36263fb9dbd19f9309dbad6c92
         
     article{
     text-align: center; background-color: blue(44, 43, 42);
@@ -15,7 +19,12 @@ body{
     }
     
      #titulo del blog {
+<<<<<<< HEAD
     text-align: left;
     font-size: medium;
+=======
+     text-align: center;
+     font-size: 3rem;
+>>>>>>> e70c82662cc3cb36263fb9dbd19f9309dbad6c92
     
     }
