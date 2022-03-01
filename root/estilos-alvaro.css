@@ -1,21 +1,21 @@
 body{
 color:black;
-background-color: azure;}
+background-color: rgb(54, 117, 177);}
     
 article{
-text-align: center; background-color: blue(44, 43, 42);
+text-align: left; background-color: blue(44, 43, 42);
 
 
 }
 
 nav>ul>li>. resaltado{
- color:greenyellow;
+ color:rgb(98, 143, 31);
 
 
 }
 
  #titulo del blog {
- text-align: center;
+ text-align:left;
  font-size: 3rem;
 
 }
